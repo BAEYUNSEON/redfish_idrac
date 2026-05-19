@@ -4,8 +4,6 @@
 # 사용법: python main.py
 # ─────────────────────────────────────────────
 
-## TODO : parsing data module 
-
 import argparse
 import sys
 import json
