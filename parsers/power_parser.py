@@ -24,11 +24,6 @@ def parse_power_info(data: dict) -> dict:
 
     # 전체 전력 소비
     power_control = data.get("PowerControl", [{}])
-    # custom ys 
-    if power_control {
-        data = power_control.get("data")
-        print(data) 
-    }
     current_power = (
         power_control[0].get("PowerConsumedWatts", "N/A")
         if power_control else "N/A"
